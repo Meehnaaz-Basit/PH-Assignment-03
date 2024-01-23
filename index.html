@@ -47,7 +47,7 @@
   </head>
   <body class="font-main">
     <header>
-      <nav>
+      <nav class="py-5">
         <div class="container mx-auto max-w-[1200px] w-[90%] lg-w[84%]">
           <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -110,14 +110,16 @@
       </nav>
       <!-- slider -->
       <div
-        class="slider-section container mx-auto max-w-[1200px] w-[90%] lg-w[84%]"
+        class="relative pt-5 slider-section container mx-auto max-w-[1200px] w-[90%] lg-w[84%]"
       >
         <!--  -->
         <div class="carousel w-full">
           <!-- 1 -->
           <div id="slide1" class="carousel-item relative w-full">
             <img src="Images/slider.png" class="w-full" />
-            <div class="absolute flex left-12 bottom-12 space-x-5">
+            <div
+              class="absolute flex lg:left-12 lg:bottom-12 bottom-5 transform -translate-x-1/2 lg:-translate-x-0 left-1/2 space-x-5"
+            >
               <a
                 href="#slide3"
                 class="btn btn-circle text-white bg-custom-dark text-xl"
@@ -133,7 +135,9 @@
           <!-- 2 -->
           <div id="slide2" class="carousel-item relative w-full">
             <img src="Images/slider.png" class="w-full" />
-            <div class="absolute flex left-12 bottom-12 space-x-5">
+            <div
+              class="absolute flex lg:left-12 lg:bottom-12 bottom-5 transform -translate-x-1/2 lg:-translate-x-0 left-1/2 space-x-5"
+            >
               <a
                 href="#slide1"
                 class="btn btn-circle text-white bg-custom-dark text-xl"
@@ -149,7 +153,9 @@
           <!-- 3 -->
           <div id="slide3" class="carousel-item relative w-full">
             <img src="Images/slider.png" class="w-full" />
-            <div class="absolute flex left-12 bottom-12 space-x-5">
+            <div
+              class="absolute flex lg:left-12 lg:bottom-12 bottom-5 transform -translate-x-1/2 lg:-translate-x-0 left-1/2 space-x-5"
+            >
               <a
                 href="#slide2"
                 class="btn btn-circle text-white bg-custom-dark text-xl"
@@ -164,8 +170,18 @@
           </div>
           <!--  -->
         </div>
-        <!--  -->
-        <div class="black-badge"></div>
+        <!-- black badge  -->
+        <div
+          class="lg:absolute lg:bottom-10 lg:right-10 black-badge bg-custom-dark lg:w-[46%] space-y-4 p-7 rounded-xl mt-5 lg-mt-0"
+        >
+          <h3 class="text-white text-2xl font-extrabold">
+            Meet all the heroes from the field
+          </h3>
+          <p class="text-[rgba(255,255,255,0.60)]">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
       </div>
       <!-- slider ends-->
     </header>
@@ -181,7 +197,7 @@
               class="lg:w-3/5 lg:mx-auto lg:px-14 space-y-6 section-heading text-center"
             >
               <h2
-                class="lg:text-4xl text-custom-dark font-extrabold capitalize"
+                class="lg:text-4xl text-2xl text-custom-dark font-extrabold capitalize"
               >
                 Professional Hockeys Club
               </h2>
@@ -282,7 +298,7 @@
               class="lg:w-3/5 lg:mx-auto lg:px-14 space-y-6 section-heading text-center"
             >
               <h2
-                class="lg:text-4xl text-custom-dark font-extrabold capitalize"
+                class="lg:text-4xl text-2xl text-custom-dark font-extrabold capitalize"
               >
                 program sections
               </h2>
@@ -314,7 +330,7 @@
               class="lg:w-3/5 lg:mx-auto lg:px-14 space-y-6 section-heading text-center"
             >
               <h2
-                class="lg:text-4xl text-custom-dark font-extrabold capitalize"
+                class="lg:text-4xl text-2xl text-custom-dark font-extrabold capitalize"
               >
                 our new products
               </h2>
@@ -590,7 +606,7 @@
               class="lg:w-3/5 lg:mx-auto lg:px-14 space-y-6 section-heading text-center"
             >
               <h2
-                class="lg:text-4xl text-custom-dark font-extrabold capitalize"
+                class="lg:text-4xl text-2xl text-custom-dark font-extrabold capitalize"
               >
                 our new products
               </h2>
@@ -732,7 +748,7 @@
               class="lg:w-3/5 lg:mx-auto lg:px-14 space-y-6 section-heading text-center"
             >
               <h2
-                class="lg:text-4xl text-custom-dark font-extrabold capitalize"
+                class="lg:text-4xl text-2xl text-custom-dark font-extrabold capitalize"
               >
                 get in touch
               </h2>
@@ -868,7 +884,9 @@
           <div
             class="social-icon bg-[rgba(19,19,24,0.03)] text-center space-y-5 py-12 mt-14 rounded-xl"
           >
-            <h4 class="text-custom-dark capitalize text-2xl font-extrabold">
+            <h4
+              class="text-custom-dark capitalize text-2xl text-xl font-extrabold"
+            >
               social media
             </h4>
             <div class="media-icons text-custom-dark text-2xl space-x-8">
@@ -889,7 +907,9 @@
       <div class="container mx-auto max-w-[1200px] w-[90%] lg-w[84%]">
         <div class="footer-content w-full flex justify-between">
           <aside class="lg:basis-[40%] space-y-4">
-            <h3 class="text-3xl font-extrabold capitalize">get in touch</h3>
+            <h3 class="lg:text-3xl text-2xl tex font-extrabold capitalize">
+              get in touch
+            </h3>
             <p
               class="text-[rgba(255,255,255,0.60)] font-medium lg:pr-48 leading-7"
             >
