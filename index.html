@@ -33,6 +33,7 @@
               "custom-dark": "#131318",
               "custom-light": "rgba(19, 19, 24, 0.60)",
               "custom-lighter": "rgba(19, 19, 24, 0.50)",
+              "custom-lightest": "rgba(19, 19, 24, 0.40)",
             },
           },
         },
@@ -533,7 +534,7 @@
       </section>
       <!-- new product ends -->
       <!-- faq -->
-      <section class="faq lg:pt-24 pt-14 pb-[200px]">
+      <section class="faq lg:pt-24 pt-14">
         <div class="container mx-auto max-w-[1200px] w-[90%] lg-w[84%]">
           <!-- heading -->
           <div
@@ -674,6 +675,150 @@
         </div>
       </section>
       <!-- faq ends -->
+      <!-- get in touch -->
+      <section class="form-section lg:pt-24 pt-14 pb-[200px]">
+        <div class="container mx-auto max-w-[1200px] w-[90%] lg-w[84%]">
+          <!-- heading -->
+          <div
+            class="section-dash border-dashed border-r-0 border-l-0 border-2 border-[rgba(19, 19, 24, 0.20)] py-8"
+          >
+            <div
+              class="lg:w-3/5 lg:mx-auto lg:px-14 space-y-6 section-heading text-center"
+            >
+              <h2
+                class="lg:text-4xl text-custom-dark font-extrabold capitalize"
+              >
+                get in touch
+              </h2>
+              <p class="text-custom-light font-medium">
+                Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                turpis placerat dolor. Purus urna in sit nullam proin.
+              </p>
+            </div>
+          </div>
+          <!-- heading ends -->
+          <div
+            class="form-section flex justify-between items-center gap-7 mt-14"
+          >
+            <div
+              class="contact basis-2/5 flex flex-col gap-5 border rounded-2xl p-12"
+            >
+              <div class="phone bg-[#BCED6D1A] space-y-5 p-10 rounded-2xl">
+                <div class="con-img">
+                  <img src="Images/phone.png" alt="" />
+                </div>
+                <p class="text-custom-lightest capitalize">phone number :</p>
+                <a href="#" class="text-custom-dark text-lg font-extrabold"
+                  >(+62) 123-321-543</a
+                >
+              </div>
+              <div class="mail bg-[#FDDD5F1A] space-y-5 p-10 rounded-2xl">
+                <div class="con-img">
+                  <img src="Images/mail.png" alt="" />
+                </div>
+                <p class="text-custom-lightest capitalize">email :</p>
+                <a href="#" class="text-custom-dark text-lg font-extrabold"
+                  >hockeys@support.com</a
+                >
+              </div>
+              <div class="location bg-[#629CF31A] space-y-5 p-10 rounded-2xl">
+                <div class="con-img">
+                  <img src="Images/location.png" alt="" />
+                </div>
+                <p class="text-custom-lightest capitalize">location :</p>
+                <a href="#" class="text-custom-dark text-lg font-extrabold"
+                  >152/1 mohakhali wireless gate</a
+                >
+              </div>
+            </div>
+            <div class="form-part basis-3/5">
+              <form>
+                <div class="inputs grid grid-cols-2 gap-3">
+                  <!-- 1 -->
+                  <label class="form-control w-full mt-3">
+                    <div class="label">
+                      <span
+                        class="label-text capitalize text-custom-dark text-xl font-bold"
+                        >your name</span
+                      >
+                    </div>
+                    <input
+                      type="text"
+                      placeholder="Enter your full name"
+                      class="input w-full bg-[rgba(19,19,24,0.03)] outline-none py-8 px-6 mt-3"
+                    />
+                  </label>
+                  <!-- 2 -->
+                  <label class="form-control w-full mt-3">
+                    <div class="label">
+                      <span
+                        class="label-text capitalize text-custom-dark text-xl font-bold"
+                        >your email</span
+                      >
+                    </div>
+                    <input
+                      type="email"
+                      placeholder="Enter your email"
+                      class="input w-full bg-[rgba(19,19,24,0.03)] outline-none py-8 px-6 mt-3"
+                    />
+                  </label>
+                  <!-- 3 -->
+                  <label class="form-control w-full mt-3">
+                    <div class="label">
+                      <span
+                        class="label-text capitalize text-custom-dark text-xl font-bold"
+                        >subject</span
+                      >
+                    </div>
+                    <input
+                      type="text"
+                      placeholder="Enter your subject"
+                      class="input w-full bg-[rgba(19,19,24,0.03)] outline-none py-8 px-6 mt-3"
+                    />
+                  </label>
+                  <!-- 4 -->
+                  <label class="form-control w-full mt-3">
+                    <div class="label">
+                      <span
+                        class="label-text capitalize text-custom-dark text-xl font-bold"
+                        >phone number</span
+                      >
+                    </div>
+                    <input
+                      type="text"
+                      placeholder="Enter your phone number"
+                      class="input w-full bg-[rgba(19,19,24,0.03)] outline-none py-8 px-6 mt-3"
+                    />
+                  </label>
+                  <!--  -->
+                </div>
+                <div class="form-text-area">
+                  <!--  -->
+                  <label class="form-control mt-3">
+                    <div class="label">
+                      <span
+                        class="label-text capitalize text-custom-dark text-xl font-bold"
+                        >message</span
+                      >
+                    </div>
+                    <textarea
+                      class="textarea textarea-bordered h-[300px] bg-[rgba(19,19,24,0.03)] outline-none py-8 px-6 mt-3 text-base border-none resize-none rounder-xl"
+                      placeholder="Write your message"
+                    ></textarea>
+                  </label>
+                  <!--  -->
+                  <button
+                    class="btn btn-block mt-8 bg-custom-red text-white text-xl font-bold capitalize rounded-xl py-3.5 h-auto"
+                  >
+                    send message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- get in touch ends -->
     </main>
     <footer></footer>
   </body>
