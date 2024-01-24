@@ -81,7 +81,7 @@
               </div>
               <a
                 href="index.html"
-                class="lg:text-4xl font-extrabold text-custom-dark text-xl cursor-pointer"
+                class="lg:text-4xl md:text-3xl font-extrabold text-custom-dark text-2xl cursor-pointer"
                 >Hockey<span class="text-custom-red">’</span>s</a
               >
             </div>
@@ -98,7 +98,7 @@
             </div>
             <div class="navbar-end space-x-5">
               <i
-                class="fa-solid fa-magnifying-glass text-[#89898b] cursor-pointer"
+                class="fa-solid fa-magnifying-glass text-[#89898b] cursor-pointer lg:block md:block hidden"
               ></i>
               <a
                 class="btn font-bold text-xl px-7 py-3.5 h-auto bg-custom-red text-white capitalize"
@@ -110,7 +110,7 @@
       </nav>
       <!-- slider -->
       <div
-        class="relative pt-5 slider-section container mx-auto max-w-[1200px] w-[90%] lg-w[84%]"
+        class="relative pt-2 lg:pt-5 slider-section container mx-auto max-w-[1200px] w-[90%] lg-w[84%]"
       >
         <!--  -->
         <div class="carousel w-full">
@@ -174,7 +174,7 @@
         <div
           class="lg:absolute lg:bottom-10 lg:right-10 black-badge bg-custom-dark lg:w-[46%] space-y-4 p-7 rounded-xl mt-5 lg-mt-0"
         >
-          <h3 class="text-white text-2xl font-extrabold">
+          <h3 class="text-white lg:text-2xl text-lg font-extrabold">
             Meet all the heroes from the field
           </h3>
           <p class="text-[rgba(255,255,255,0.60)]">
@@ -687,10 +687,10 @@
           <div
             class="faq-content flex lg:flex-row flex-col justify-between items-center gap-7 mt-16 lg:p-10 p-6 border rounded-2xl"
           >
-            <div class="faq-image basis-1/2">
-              <img class="" src="Images/faq.png" alt="" />
+            <div class="faq-image lg:basis-1/2">
+              <img src="Images/faq.png" alt="" />
             </div>
-            <div class="faq-qp basis-1/2">
+            <div class="faq-qp lg:basis-1/2">
               <!--  -->
               <div class="join join-vertical w-full">
                 <!-- 1 -->
@@ -875,7 +875,7 @@
                     <input
                       type="text"
                       placeholder="Enter your full name"
-                      class="input w-full bg-[rgba(19,19,24,0.03)] outline-none py-8 px-6 mt-3"
+                      class="input w-full bg-[rgba(19,19,24,0.03)] focus:outline-none py-8 px-6 mt-3"
                     />
                   </label>
                   <!-- 2 -->
@@ -889,7 +889,7 @@
                     <input
                       type="email"
                       placeholder="Enter your email"
-                      class="input w-full bg-[rgba(19,19,24,0.03)] outline-none py-8 px-6 mt-3"
+                      class="input w-full bg-[rgba(19,19,24,0.03)] focus:outline-none py-8 px-6 mt-3"
                     />
                   </label>
                   <!-- 3 -->
@@ -903,7 +903,7 @@
                     <input
                       type="text"
                       placeholder="Enter your subject"
-                      class="input w-full bg-[rgba(19,19,24,0.03)] outline-none py-8 px-6 mt-3"
+                      class="input w-full bg-[rgba(19,19,24,0.03)] focus:outline-none py-8 px-6 mt-3"
                     />
                   </label>
                   <!-- 4 -->
@@ -917,7 +917,7 @@
                     <input
                       type="text"
                       placeholder="Enter your phone number"
-                      class="input w-full bg-[rgba(19,19,24,0.03)] outline-none py-8 px-6 mt-3"
+                      class="input w-full bg-[rgba(19,19,24,0.03)] focus:outline-none py-8 px-6 mt-3"
                     />
                   </label>
                   <!--  -->
@@ -932,7 +932,7 @@
                       >
                     </div>
                     <textarea
-                      class="textarea textarea-bordered h-[300px] bg-[rgba(19,19,24,0.03)] outline-none py-8 px-6 mt-3 text-base border-none resize-none rounder-xl"
+                      class="textarea textarea-bordered h-[300px] bg-[rgba(19,19,24,0.03)] focus:outline-none py-8 px-6 mt-3 text-base border-none resize-none rounder-xl"
                       placeholder="Write your message"
                     ></textarea>
                   </label>
@@ -972,13 +972,15 @@
     </main>
     <footer class="footer p-10 text-white bg-custom-dark py-32 lg:mt-24 mt-14">
       <div class="container mx-auto max-w-[1200px] w-[90%] lg-w[84%]">
-        <div class="footer-content w-full flex justify-between">
-          <aside class="lg:basis-[40%] space-y-4">
+        <div
+          class="footer-content w-full grid lg:grid-cols-5 grid-cols-2 gap-6 lg:text-left text-center"
+        >
+          <aside class="lg:col-span-2 col-span-2 space-y-4">
             <h3 class="lg:text-3xl text-2xl tex font-extrabold capitalize">
               get in touch
             </h3>
             <p
-              class="text-[rgba(255,255,255,0.60)] font-medium lg:pr-48 leading-7"
+              class="text-[rgba(255,255,255,0.60)] font-medium lg:pr-40 leading-7"
             >
               Dit amet consectetur. Condimentum adipiscing aliquam turpis
               placerat dolor. Purus urna in sit nullam proin.
@@ -999,7 +1001,7 @@
             </div>
           </aside>
           <nav
-            class="lg:basis-[20%] flex flex-col capitalize space-y-5 text-[rgba(255,255,255,0.60)]"
+            class="lg:col-span-1 lg:mt-0 mt-6 flex flex-col capitalize space-y-5 text-[rgba(255,255,255,0.60)]"
           >
             <header class="text-[#fff] text-lg font-bold mb-4">company</header>
             <a class="link link-hover">about us</a>
@@ -1009,7 +1011,7 @@
             <a class="link link-hover">legal notice</a>
           </nav>
           <nav
-            class="lg:basis-[20%] flex flex-col capitalize space-y-5 text-[rgba(255,255,255,0.60)]"
+            class="lg:col-span-1 lg:mt-0 mt-6 flex flex-col capitalize space-y-5 text-[rgba(255,255,255,0.60)]"
           >
             <header class="text-[#fff] text-lg font-bold mb-4">support</header>
             <a class="link link-hover">help center</a>
@@ -1018,7 +1020,7 @@
             <a class="link link-hover">contact us</a>
           </nav>
           <nav
-            class="lg:basis-[20%] flex flex-col capitalize space-y-5 text-[rgba(255,255,255,0.60)]"
+            class="lg:col-span-1 col-span-2 lg:mt-0 mt-6 flex flex-col capitalize space-y-5 text-[rgba(255,255,255,0.60)]"
           >
             <header class="text-[#fff] text-lg font-bold mb-4">services</header>
             <a class="link link-hover">academy</a>
